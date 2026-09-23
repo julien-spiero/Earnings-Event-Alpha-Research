@@ -46,20 +46,10 @@ Once obtained, the master dataset should be placed in the appropriate `data/` di
 
 ```text
 ├── README.md
-├── Earnings_Event_Alpha.ipynb
+├── Event-Alpha-Research.ipynb
 ├── data/
 │   └── [WRDS master dataset — not included]
-├── results/
-└── .gitignore
-```
-
-## Repository Structure
-
-```text
-├── README.md
-├── Earnings_Event_Alpha.ipynb
-├── data/
-├── results/
+├── Feature_Dictionnary/
 └── .gitignore
 ```
 
