@@ -30,6 +30,29 @@ The objective was to predict the **direction of benchmark-adjusted returns on th
 
 Python · Pandas · NumPy · Scikit-learn · NLP · PCA · Random Forest
 
+## Data Requirements
+
+The project's master dataset is **not included in this repository** due to data access and licensing restrictions.
+
+To reproduce the analysis, the master dataset must be **obtained independently through a valid WRDS account** and loaded into the project before running the notebook.
+
+The research relies on proprietary financial datasets accessed through **Wharton Research Data Services (WRDS)**. Users are responsible for obtaining the appropriate WRDS access and ensuring compliance with the applicable data licensing terms.
+
+Once obtained, the master dataset should be placed in the appropriate `data/` directory and loaded by the notebook.
+
+> **Important:** The repository does not provide, redistribute, or grant access to the underlying WRDS data.
+
+## Repository Structure
+
+```text
+├── README.md
+├── Earnings_Event_Alpha.ipynb
+├── data/
+│   └── [WRDS master dataset — not included]
+├── results/
+└── .gitignore
+```
+
 ## Repository Structure
 
 ```text
